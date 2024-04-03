@@ -1,11 +1,5 @@
 <template>
-  <hot-table
-    :data="data"
-    :rowHeaders="true"
-    :colHeaders="true"
-    :settings="settings"
-    :licenseKey='non - commercial - and - evaluation'
-  ></hot-table>
+  <hot-table :data="data" :rowHeaders="true" :colHeaders="true"></hot-table>
 </template>
 
 <script>
