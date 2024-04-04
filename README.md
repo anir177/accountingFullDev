@@ -1,4 +1,7 @@
 "# accountingFullDev"
+<<<<<<< HEAD
+=======
+
 ## batmandah
 
 ## Enkh-amgalan init
