@@ -1,4 +1,7 @@
 "# accountingFullDev"
+<<<<<<< HEAD
+=======
+
 ## batmandah
 
 ## Enkh-amgalan init
@@ -20,17 +23,3 @@
 ## orgil init
 
 ## tulllga
-
-## bilguunmunkh init
-
-## AMI INIT
-
-## test123
-
-## test1
-# 3
-# 4
-# 5
-## togtox init
-# 4
-

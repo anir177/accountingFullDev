@@ -7,10 +7,10 @@
       py-8
       gap-12
       min-h-screen
-      bg-indigo-800
+      bg-lime-500
     "
   >
-    <Header text="Calculator using Vue.js" />
+    <Header :text="currentValue || 0 " />
     <div class="bg-indigo-300 w-80 p-5 rounded space-y-4 max-w-[300px]">
       <div class="bg-white p-4 rounded text-xl font-medium text-right">
         {{ currentValue || 0 }}
@@ -25,7 +25,7 @@
             py-2
             hover:bg-slate-300
             transition-all
-            duration-75
+            duration-75         
           "
           :class="{
             'bg-slate-200': ['C', '*', '/', '-', '+', '%', '=', '+/-'].includes(

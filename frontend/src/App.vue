@@ -1,13 +1,28 @@
 <template>
-  <Calculator />
-</template>
+    <!-- <TheHeader v-if="showTodoNav" /> -->
+  
+    <!-- <ContactNavbar v-show="showHeaderFooter" />
+    <WebNavbar v-show="showHeaderFooter" /> -->
+  
+    <RouterView />
+  
+    <!-- <WebFooter v-show="showHeaderFooter" /> -->
+  
+    <!-- <BackToTopButton /> -->
+  </template>
+  
+  <script>
+//   import { ref, watch } from "vue";
+//   import { useRoute } from "vue-router";
+//   import Cookies from "js-cookie";
 
-<script>
-import Calculator from "./components/Calculator.vue";
-export default {
+  export default {
   name: "App",
-  components: {
-    Calculator,
+  components: {  
+
   },
-};
+  setup() {
+    // const route = useRoute();
+  }
+}
 </script>
