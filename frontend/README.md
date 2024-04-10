@@ -1,5 +1,9 @@
 # calculator
+<<<<<<< HEAD
 
+=======
+### For Tutorial
+>>>>>>> origin/main
 ## Project setup
 ```
 npm install
@@ -22,3 +26,8 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+<<<<<<< HEAD
+=======
+
+test
+>>>>>>> origin/main
