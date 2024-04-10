@@ -19,9 +19,10 @@ registerAllModules();
 export default defineComponent({
   data() {
     return {
+
       data: [
         [
-          "Д.д",
+          "Д.дddd",
           "Нэр",
           "Үндсэн цалин",
           "Ажилбал зохих цаг",
