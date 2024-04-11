@@ -5,18 +5,35 @@
     :data="data"
     :rowHeaders="true"
     :colHeaders="true"></hot-table>
+    : cell={[
+        {
+          row: 0,
+          col: 0,
+          renderer: 'customStylesRenderer',
+        },
+      ]}
 </template>
 
 <script>
 import { defineComponent } from "vue";
 import { HotTable } from "@handsontable/vue3";
 import { registerAllModules } from "handsontable/registry";
+// import { textRenderer, registerRenderer } from 'handsontable/renderers';
 import "handsontable/dist/handsontable.full.css";
 
 // register Handsontable's modules
 registerAllModules();
 
 export default defineComponent({
+  // registerRenderer('customStylesRenderer', (hotInstance, TD, ...rest) => {
+  //   textRenderer(hotInstance, TD, ...rest);
+
+  //   TD.style.fontWeight = 'bold';
+  //   TD.style.color = 'green';
+  //   TD.style.background = '#d7f1e1';
+  // });
+
+
   data() {
     return {
       data: [
@@ -33,6 +50,7 @@ export default defineComponent({
           "Урьдчилгаа",
           "Нийт олгох",
           "Байгууллагаас олгох НДШ",
+          // renderer: 'customStylesRenderer',
         ],
         [
           1,
@@ -343,6 +361,9 @@ export default defineComponent({
       ],
     };
   },
+
+
+
   components: {
     HotTable,
   },
